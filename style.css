@@ -7,6 +7,9 @@
     font-family: 'Fraunces', serif;
 }
 
+#menu-icon{
+    display: none;
+}
 
 .container{
     margin: 0 auto;
