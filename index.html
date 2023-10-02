@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      background-color: hsl(168, 34%, 60%);
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .attribution a:hover {
+      color: hsl(167, 40%, 24%);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img src="images/logo.svg" alt="">
+      <div id="menu-icon">
+        <img onclick="teste()" src="images/icon-hamburger.svg" alt="">
+        
+      </div>
+      <ul class="nav-menu" id="menu">
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Projects</a></li>
+        <li class="contact"><a href="">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="start">
+    <div class="container">
+      <h1>
+        We are creatives
+      </h1>
+      <img src="images/icon-arrow-down.svg" alt="">
+    </div>
+  </section>
+  <section class="transform">
+    <div class="transform-text-container">
+      <div class="transform-text">
+        <h2>Transform your brand</h2>
+        <p>We are a full-service creative agency specializing in helping brands grow fast.
+          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+        <div class="text-a">
+          <a href="">Learn more</a>
+          <div class="bar-yellow"></div>
+        </div>
+      </div>
+    </div>
+    <div class="transform-img">
+      <img src="images/desktop/image-transform.jpg" alt="">
+    </div>
+  </section>
+  <section class="transform">
+    <div class="transform-text-container">
+      <div class="transform-text">
+        <h2>Stand out to the right audience</h2>
+        <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
+          build
+          and extend your brand in digital places.</p>
+        <div class="text-a">
+          <a href="">Learn more</a>
+          <div class="bar-red"></div>
+        </div>
+      </div>
+    </div>
+    <div class="transform-img">
+      <img src="images/desktop/image-stand-out.jpg" alt="">
+    </div>
+  </section>
+  <section class="section-graphic">
+    <div class="grafic">
+      <img src="images/desktop/image-graphic-design.jpg" alt="">
+      <div class="text-grafic">
+
+        <h2>Graphic design</h2>
+        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+          potential
+          clients’ attention.</p>
+      </div>
+    </div>
+    <div class="photography">
+      <img src="images/desktop/image-photography.jpg" alt="">
+      <div class="text-grafic">
+        <h2>Photography</h2>
+        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+        </p>
+      </div>
+    </div>
+    </div>
+    </section>
+    <section class="testimonials">
+      <div class="container">
+        <h2>Client testimonials</h2>
+        <div class="testimonials-container">
+          <div class="testimonials-single">
+            <img src="images/image-emily.jpg" alt="">
+            <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were
+              always
+              hit.</p>
+            <h3>Emily R.</h3>
+            <span>Marketing Director</span>
+          </div>
+          <div class="testimonials-single">
+            <img src="images/image-thomas.jpg" alt="">
+            <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
+              enjoyable
+              experience.</p>
+            <h3>Thomas S.</h3>
+            <span>Chief Operating Officer</span>
+          </div>
+          <div class="testimonials-single">
+            <img src="images/image-jennie.jpg" alt="">
+            <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+            </p>
+            <h3>Jennie F.</h3>
+            <span>Business Owner</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="galery">
+      <img src="images/desktop/image-gallery-milkbottles.jpg" alt="">
+      <img src="images/desktop/image-gallery-orange.jpg" alt="">
+      <img src="images/desktop/image-gallery-cone.jpg" alt="">
+      <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="">
+    </section>
+    <footer>
+      <div class="container">
+        <img src="images/logo-green.svg" alt="">
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Projects</a></li>
+        </ul>
+        <div class="web">
+          <img src="images/icon-facebook.svg" alt="">
+          <img src="images/icon-instagram.svg" alt="">
+          <img src="images/icon-twitter.svg" alt="">
+          <img src="images/icon-pinterest.svg" alt="">
+        </div>
+      </div>
+    </footer>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/carlosmagno02" target="_blank">Carlos Magno</a>.
+    </div>
+
+    <script>
+      
+      function teste(){
+        if(document.getElementById('menu').style.display == 'block'){
+          document.getElementById('menu').style.display = 'none'
+          
+          
+        }else{
+          document.getElementById('menu').style.display = 'block'          
+        }
+  
+      }
+  </script>
+
+</body>
+
+</html>
